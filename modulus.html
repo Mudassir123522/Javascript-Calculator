@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main" >
+
+    <h1 class="header" >~:MODULUS:~</h1>
+
+    
+    <nav>
+        <ul>
+            <li> <a href="./index.html"> Addition (+)</a></li>
+            <li> <a href="./sub.html"> Subtraction (-)</a></li>
+            <li> <a href="./multiply.html"> Multiplication (x)</a></li>
+            <li> <a href="./divide.html"> Division (/)</a></li>
+            <li> <a href="./modulus.html">Modulus (%)</a></li>
+        </ul>  
+    </nav>
+
+    <footer class="footer">
+        <b> &copy;web and app developer:Muhammad Mudassir Ahmed</b>
+       <center> <img src="./PngItem_1123483.png" alt="" width="3%" height="80px"></center>
+        <a href="https://github.com/Mudassir123522"> <img src="./Octicons-mark-github.svg.png" alt="" height="10%" width="10%"></a>
+        <center>MY GITHUB ACCOUNT</center>
+    </footer>
+
+    <script type="module">
+        let num1 = prompt("enter your 1st number: ");
+        let num2 = prompt("enter your 2nd number: ");
+
+        num1 = Number(num1);
+        num2 = Number(num2);
+
+        let num3 = num1 % num2;
+
+        alert('your modulus is: '+ num3);
+    </script>
+</body>
+
+</html>
